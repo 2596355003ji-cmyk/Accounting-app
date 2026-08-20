@@ -1,0 +1,44 @@
+# Android / Gradle
+.gradle/
+.tools/
+.android/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Generated packages and reports
+*.apk
+*.aab
+*.apks
+reports/
+
+# Signing keys and secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Financial and device-private data
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+reference/
+private/
+device-data/
+screenshots-private/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~

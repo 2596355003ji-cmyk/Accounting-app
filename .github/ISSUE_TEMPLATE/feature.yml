@@ -1,0 +1,39 @@
+name: 功能需求
+description: 提出一个可以独立验收的新功能
+title: "[Feature] "
+labels:
+  - "type:feature"
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 用户场景
+      description: 谁在什么情况下需要这个功能？
+      placeholder: 当我使用支付宝完成付款后，我希望应用生成一条待确认账单。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 期望结果
+      description: 用户最终能够看到或完成什么？
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 每行写一个可验证条件。
+      placeholder: |
+        - [ ] 可以打开通知权限设置
+        - [ ] 未授权时显示清楚的说明
+        - [ ] 授权后状态会刷新
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: 隐私与数据
+      description: 会读取、保存或导出哪些数据？没有则写“无”。
+    validations:
+      required: true

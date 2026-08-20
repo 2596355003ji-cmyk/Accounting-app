@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全或隐私问题
+    url: https://github.com/2596355003ji-cmyk/Accounting-app/security
+    about: 请不要在公开 Issue 中提交真实账单或敏感数据。
